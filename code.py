@@ -9,7 +9,7 @@ def find_cube_pairs(target): #colon error
     return solutions #name error initially it was sol
 
 pairs = find_cube_pairs(1729)#no comma required
-print("Valid cube pairs for 1728:")#not printf its print and no comma
+print("Valid cube pairs for 1729:")#not printf its print and no comma and 1729
 for a, b in pairs: #colon error and pairs not pair
-    print(f" → {a}³ + {b}³ = {a**2} + {b**2} = 1728")
+    print(f" → {a}³ + {b}³ = {a**2} + {b**2} = 1729")#1729 not 1728
 #not printf its print
